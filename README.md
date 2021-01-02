@@ -2,7 +2,7 @@
 
 # Description
 
-The project converted a static site into an interactive one by adding the following functionality primarily through Javascript:
+This project converted a static site into an interactive one by adding the following functionality primarily through Javascript:
 
 ## Navigation menu built dynamically from site content
 
