@@ -4,7 +4,7 @@
 
 The project converted a static site into an interactive one by adding the following functionality primarily through Javascript:
 
-## * Navigation menu built dynamically from site content
+## (* Navigation menu built dynamically from site content)
 
 A for loop with innerHTML property and template literals was used to dynamically build an unordered list for the navigation menu:
 
