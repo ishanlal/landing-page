@@ -1,10 +1,10 @@
 # Landing Page Project
 
-## Description
+# Description
 
 The project converted a static site into an interactive one by adding the following functionality primarily through Javascript:
 
-* Navigation menu built dynamically from site content
+## * Navigation menu built dynamically from site content
 
 A for loop with innerHTML property and template literals was used to dynamically build an unordered list for the navigation menu:
 
@@ -16,7 +16,7 @@ for (let i = 0; i < el_list.length; i++){
 }
 ```
 
-* Smooth scrolling from navigation menu to appropriate section
+## * Smooth scrolling from navigation menu to appropriate section
 
 A forEach loop was used to bind smooth scrolling behavior to the clickable links:
 
@@ -31,7 +31,7 @@ anchor_list.forEach(anchor => {
 });
 ```
 
-* Scroll to top button
+## * Scroll to top button
 
 A HTML element for scroll to top button was added in the index.html file. When button is clicked scrollToTop() function in app.js is invoked.
 
@@ -39,7 +39,7 @@ A HTML element for scroll to top button was added in the index.html file. When b
 <button onclick="scrollToTop()" id="topButton" title="Go to top">Top</button>
 ```
 
-* Styling for active states
+## * Styling for active states
 
 Active sections in view are detected and active styling is applied across site sections and nav bar menu. Attribute selectors were used to select appropriate HTML elements into Javascript.
 
